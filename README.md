@@ -1,2 +1,3 @@
 Banco de dados da aplicação:
-![carbon](https://github.com/alimkhodr/OrdemServico/assets/85517447/29a78fcc-045e-4cbd-bdff-807d3a4abed0)
+
+![carbon (1)](https://github.com/alimkhodr/OrdemServico/assets/85517447/b2a3126e-8a21-47e7-a234-54775ec706e8)
