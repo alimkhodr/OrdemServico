@@ -10,13 +10,13 @@ Module Metodo
     Public tela As Integer
     Public Sub conectar()
         Try
-            conexaobd.ConnectionString = "server=BRSPJAM-AP07;database=SGM_ONE;uid=sa;pwd=P@ssw0rd"
+            conexaobd.ConnectionString = "sua_conexao"
             comandoSQL = conexaobd.CreateCommand
             conexaobd.Open()
 
         Catch ex As Exception
             conexaobd.Close()
-            conexaobd.ConnectionString = "server=BRSPJAM-AP07;database=SGM_ONE;uid=sa;pwd=P@ssw0rd"
+            conexaobd.ConnectionString = "sua_conexao"
             comandoSQL = conexaobd.CreateCommand
             conexaobd.Open()
         End Try
